@@ -1,0 +1,55 @@
+/************************** GENERAL *************************/
+/* Added background to container
+*************************/
+div.container {
+    background-color: bisque;
+}
+
+/* Added default template for html elements
+*************************/
+h2 {
+    font-size: 30pt;
+    font-style: oblique;
+}
+
+a {
+    color: #c0c0c0;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+/************************** MENU *************************/
+/* links
+**********************/
+div.container nav.menu a {
+    color: lightcoral;
+}
+
+/************************** ABOUT *************************/
+/* First letter in about section
+*************************/
+#about p:first-letter{
+    font-size: 40pt;
+}
+
+/************************** FAQ *************************/
+.faq {
+    background-color: teal;
+    color: #000000;
+    font-size: 18pt;
+}
+
+/* Additional content
+***********************/
+#about p:first-of-type:before{
+    content: "BEFORE";
+    font-size: 90pt;
+}
+
+#about p:nth-of-type(2):after{
+    content: "AFTER";
+    font-size: 90pt;
+}
+/************************** CONTACTS *************************
