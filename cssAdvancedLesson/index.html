@@ -1,163 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8" >
-        <title>Some page</title>
+        <title>Page title</title>
 
-        <!--Libs-->
         <link rel="stylesheet" href="css/vendor/normalize.css"/>
-
-        <!--styles-->
         <link rel="stylesheet" href="css/style/style.css"/>
     </head>
-<body>
+    <body>
 
-    <!--GENERAL CONTAINER-->
-    <div class="container">
+    <div id="container">
 
-        <!--HEADER-->
-        <header>
-            <h1>Header</h1>
-        </header>
-
-        <!--MENU-->
-        <nav class="menu">
+        <!--header menu-->
+        <nav class="header-menu">
             <ul>
-                <li>
-                    <a href="#about">about</a>
-                </li>
-                <li>
-                    <a href="#faq">faq</a>
-                </li>
-                <li>
-                    <a href="#contacts">contacts</a>
-                </li>
-                <li>
-                    <a href="#register">register</a>
-                </li>
+                <li>HOME</li>
+                <li>FAQ</li>
+                <li>Contacts</li>
+                <li>Stay in touch</li>
             </ul>
         </nav>
 
-        <hr>
+        <!--general content-->
+        <div class="content">
 
-        <!--CONTENT-->
-        <section class="content">
+            <div class="image-container float-left">
+                <img width="200" height="150" src="image/example_image.png" alt="kot1"/>
+            </div>
 
-            <!--ABOUT PAGE-->
-            <article id="about">
-                <h2>About</h2>
-                <p>Some info about us</p>
-            </article>
+            <p>Первостепенный текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit </p>
 
-            <hr>
+            <p>Второстепенный текст, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
 
-            <!--FAQ-->
-            <article id="faq">
-                <h2>FAQ</h2>
-                <dl>
-                    <dt>yoyoyo!</dt>
-                    <dd>tototo!</dd>
-                </dl>
+            <div class="image-container float-right">
+                <img width="200" height="150"  src="image/example_image.png" alt="kot1"/>
+            </div>
 
-                <ol>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                </ol>
+            <p>Третий сорт, забиваем полосу Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit </p>
 
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
+        </div>
 
-                <form action="/someAction">
-                    <select name="select" id="qq">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                </form>
+        <div class="faq">
+            <h2 id="faq" class="center">FAQ</h2>
+
+            <div class="content">
+
+                <!--TODO: fix align for content-->
+                <p>Question 1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+                <p>Question 2</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque </p>
+
+            </div>
+        </div>
+
+        <div class="contacts">
+            <h2 id="contacts" class="center">Contacts</h2>
+
+            <div class="content">
+                <!--TODO: fix position for image-->
+                <img src="image/example_image.png" alt="kitten"/>
+
+                
+
+            </div>
+        </div>
 
 
-            </article>
+        <div class="stay">
+            <h2 id="stay" class="center">Stay in touch</h2>
 
-            <hr>
+            <div class="content">
+                <!--TODO: add simple form-->
+            </div>
+        </div>
 
-            <!--CONTACTS-->
-            <article id="contacts">
-                <h3>Contacts</h3>
-                <ul>
-                    <li>
-                        <span>Mail: </span>
-                        <a href="mailto:maksr51314@gmail.com" > someMail </a>
-                    </li>
-                    <li>
-                        <span>WEB</span>
-                        <a href="http://google.com/">some link</a>
-                    </li>
-                </ul>
-
-            </article>
-
-            <hr>
-
-            <!--REGISTRY-->
-            <article id="register">
-                <h3>Registery</h3>
-
-                <form action="/blabla">
-
-                    <label for="userName">userNAme : </label><br>
-                    <input type="text" id="userName" placeholder="name...yo!"><br>
-
-                    <br>
-
-                    <label for="userPass">password : </label><br>
-                    <input type="password" id="userPass">
-
-                    <br>
-
-                    <input type="submit">
-                </form>
-
-            </article>
-        </section>
-
-        <hr>
-
-        <!--FOOTER-->
         <footer>
-            <nav>
+            <nav class="footer-menu">
                 <ul>
-                    <li>
-                        <a href="#about">about</a>
-                    </li>
-                    <li>
-                        <a href="#faq"> faq </a>
-                    </li>
-                    <li>
-                        <a href="#contacts"> contacts </a>
-                    </li>
-                    <li>
-                        <a href="#register">register</a>
-                    </li>
-                    <li>
-                        <a href="#content">top</a>
-                    </li>
+                    <li>HOME</li>
+                    <li>FAQ</li>
+                    <li>Contacts</li>
+                    <li>Stay in touch</li>
                 </ul>
             </nav>
 
-            <small>
-                <span>&copy; </span>
-                <span>Tralalla</span>
-                <a href="http://google.com" target="_blank">go to this site!</a>
-            </small>
+            <div class="feedback">
+                <p>Let's us hear your feedback</p>
 
+                <div class="advice">
+                    <p>How likely will you advice us ?</p>
+                    <ul>
+                        <li><input type="radio"/></li>
+                        <li><input type="radio"/></li>
+                        <li><input type="radio"/></li>
+                        <li><input type="radio"/></li>
+                        <li><input type="radio"/></li>
+                    </ul>
+
+                    <button>Vote</button>
+                </div>
+            </div>
+
+            <div class="copyright">
+                © Copyright 2013 - sudodoki
+            </div>
         </footer>
+
+
+
     </div>
 
-</body>
+    </body>
 </html>
